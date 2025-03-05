@@ -22,10 +22,10 @@ require (
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.10.0
-	github.com/tidwall/gjson v1.17.1
 	github.com/xtaci/kcp-go/v5 v5.6.13
 	golang.org/x/crypto v0.32.0
-	golang.org/x/net v0.32.0
+	github.com/tidwall/gjson v1.18.0
+	golang.org/x/net v0.33.0
 	golang.org/x/oauth2 v0.16.0
 	golang.org/x/sync v0.10.0
 	golang.org/x/time v0.5.0
