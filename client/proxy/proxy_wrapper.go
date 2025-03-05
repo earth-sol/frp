@@ -25,12 +25,12 @@ import (
 
 	"github.com/fatedier/golib/errors"
 
-	"github.com/fatedier/frp/client/event"
-	"github.com/fatedier/frp/client/health"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/transport"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	"github.com/earth-sol/frp/client/event"
+	"github.com/earth-sol/frp/client/health"
+	v1 "github.com/earth-sol/frp/pkg/config/v1"
+	"github.com/earth-sol/frp/pkg/msg"
+	"github.com/earth-sol/frp/pkg/transport"
+	"github.com/earth-sol/frp/pkg/util/xlog"
 )
 
 const (

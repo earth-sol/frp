@@ -57,8 +57,8 @@ jobs:
           echo "DOCKERFILE_FRPS_PATH=dockerfiles/Dockerfile-for-frps" >> $GITHUB_ENV
           echo "TAG_FRPC=earthsol/frpc:${{ env.TAG_NAME }}" >> $GITHUB_ENV
           echo "TAG_FRPS=earthsol/frps:${{ env.TAG_NAME }}" >> $GITHUB_ENV
-#          echo "TAG_FRPC_GPR=ghcr.io/fatedier/frpc:${{ env.TAG_NAME }}" >> $GITHUB_ENV
-#          echo "TAG_FRPS_GPR=ghcr.io/fatedier/frps:${{ env.TAG_NAME }}" >> $GITHUB_ENV
+#          echo "TAG_FRPC_GPR=ghcr.io/earth-sol/frpc:${{ env.TAG_NAME }}" >> $GITHUB_ENV
+#          echo "TAG_FRPS_GPR=ghcr.io/earth-sol/frps:${{ env.TAG_NAME }}" >> $GITHUB_ENV
 
       - name: Build and push frpc
         uses: docker/build-push-action@v5

@@ -19,10 +19,10 @@ import (
 	"net"
 	"sync"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/transport"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "github.com/earth-sol/frp/pkg/config/v1"
+	"github.com/earth-sol/frp/pkg/transport"
+	netpkg "github.com/earth-sol/frp/pkg/util/net"
+	"github.com/earth-sol/frp/pkg/util/xlog"
 )
 
 // Helper wraps some functions for visitor to use.

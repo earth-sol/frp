@@ -18,10 +18,10 @@ import (
 	"context"
 	"net"
 
-	"github.com/fatedier/frp/client"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
+	"github.com/earth-sol/frp/client"
+	v1 "github.com/earth-sol/frp/pkg/config/v1"
+	"github.com/earth-sol/frp/pkg/msg"
+	netpkg "github.com/earth-sol/frp/pkg/util/net"
 )
 
 type ClientOptions struct {

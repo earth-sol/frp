@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/earth-sol/frp/pkg/util/util"
 )
 
 type HTTPAuthMiddleware struct {

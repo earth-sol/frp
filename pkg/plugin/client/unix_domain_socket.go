@@ -23,8 +23,8 @@ import (
 
 	libio "github.com/fatedier/golib/io"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/util/xlog"
+	v1 "github.com/earth-sol/frp/pkg/config/v1"
+	"github.com/earth-sol/frp/pkg/util/xlog"
 )
 
 func init() {

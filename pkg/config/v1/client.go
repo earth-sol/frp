@@ -19,7 +19,7 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/earth-sol/frp/pkg/util/util"
 )
 
 type ClientConfig struct {

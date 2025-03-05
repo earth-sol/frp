@@ -17,8 +17,8 @@ package v1
 import (
 	"github.com/samber/lo"
 
-	"github.com/fatedier/frp/pkg/config/types"
-	"github.com/fatedier/frp/pkg/util/util"
+	"github.com/earth-sol/frp/pkg/config/types"
+	"github.com/earth-sol/frp/pkg/util/util"
 )
 
 type ServerConfig struct {

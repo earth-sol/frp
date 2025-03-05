@@ -19,9 +19,9 @@ import (
 	"slices"
 	"time"
 
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/util/util"
+	v1 "github.com/earth-sol/frp/pkg/config/v1"
+	"github.com/earth-sol/frp/pkg/msg"
+	"github.com/earth-sol/frp/pkg/util/util"
 )
 
 type TokenAuthSetterVerifier struct {

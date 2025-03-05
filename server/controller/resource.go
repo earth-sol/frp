@@ -15,13 +15,13 @@
 package controller
 
 import (
-	"github.com/fatedier/frp/pkg/nathole"
-	plugin "github.com/fatedier/frp/pkg/plugin/server"
-	"github.com/fatedier/frp/pkg/util/tcpmux"
-	"github.com/fatedier/frp/pkg/util/vhost"
-	"github.com/fatedier/frp/server/group"
-	"github.com/fatedier/frp/server/ports"
-	"github.com/fatedier/frp/server/visitor"
+	"github.com/earth-sol/frp/pkg/nathole"
+	plugin "github.com/earth-sol/frp/pkg/plugin/server"
+	"github.com/earth-sol/frp/pkg/util/tcpmux"
+	"github.com/earth-sol/frp/pkg/util/vhost"
+	"github.com/earth-sol/frp/server/group"
+	"github.com/earth-sol/frp/server/ports"
+	"github.com/earth-sol/frp/server/visitor"
 )
 
 // All resource managers and controllers

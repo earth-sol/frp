@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fatedier/frp/client"
-	httppkg "github.com/fatedier/frp/pkg/util/http"
+	"github.com/earth-sol/frp/client"
+	httppkg "github.com/earth-sol/frp/pkg/util/http"
 )
 
 type Client struct {

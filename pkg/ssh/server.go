@@ -30,15 +30,15 @@ import (
 	flag "github.com/spf13/pflag"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/pkg/config"
-	v1 "github.com/fatedier/frp/pkg/config/v1"
-	"github.com/fatedier/frp/pkg/msg"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
-	"github.com/fatedier/frp/pkg/util/util"
-	"github.com/fatedier/frp/pkg/util/xlog"
-	"github.com/fatedier/frp/pkg/virtual"
+	"github.com/earth-sol/frp/client/proxy"
+	"github.com/earth-sol/frp/pkg/config"
+	v1 "github.com/earth-sol/frp/pkg/config/v1"
+	"github.com/earth-sol/frp/pkg/msg"
+	"github.com/earth-sol/frp/pkg/util/log"
+	netpkg "github.com/earth-sol/frp/pkg/util/net"
+	"github.com/earth-sol/frp/pkg/util/util"
+	"github.com/earth-sol/frp/pkg/util/xlog"
+	"github.com/earth-sol/frp/pkg/virtual"
 )
 
 const (

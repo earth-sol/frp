@@ -26,12 +26,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fatedier/frp/client/proxy"
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/config/v1/validation"
-	httppkg "github.com/fatedier/frp/pkg/util/http"
-	"github.com/fatedier/frp/pkg/util/log"
-	netpkg "github.com/fatedier/frp/pkg/util/net"
+	"github.com/earth-sol/frp/client/proxy"
+	"github.com/earth-sol/frp/pkg/config"
+	"github.com/earth-sol/frp/pkg/config/v1/validation"
+	httppkg "github.com/earth-sol/frp/pkg/util/http"
+	"github.com/earth-sol/frp/pkg/util/log"
+	netpkg "github.com/earth-sol/frp/pkg/util/net"
 )
 
 type GeneralResponse struct {
