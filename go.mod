@@ -26,12 +26,12 @@ require (
 	github.com/xtaci/kcp-go/v5 v5.6.13
 	golang.org/x/crypto v0.32.0
 	golang.org/x/net v0.33.0
-	golang.org/x/oauth2 v0.16.0
+	golang.org/x/oauth2 v0.23.0
 	golang.org/x/sync v0.10.0
 	golang.org/x/time v0.7.0
 	gopkg.in/ini.v1 v1.67.0
 	k8s.io/apimachinery v0.32.2
-	k8s.io/client-go v0.28.8
+	k8s.io/client-go v0.32.2
 )
 
 require (
@@ -42,7 +42,6 @@ require (
 	github.com/go-jose/go-jose/v4 v4.0.5 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
-	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/pprof v0.0.0-20241206021119-61a79c692802 // indirect
@@ -70,7 +69,6 @@ require (
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/tools v0.28.0 // indirect
-	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738 // indirect
