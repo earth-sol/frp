@@ -7,7 +7,7 @@ This fork is purely for using dependabot updates to close security vulnerabiliti
 [![Build Status](https://circleci.com/gh/earth-sol/frp.svg?style=shield)](https://circleci.com/gh/earth-sol/frp)
 [![GitHub release](https://img.shields.io/github/tag/earth-sol/frp.svg?label=release)](https://github.com/earth-sol/frp/releases)
 [![Go Report Card](https://goreportcard.com/badge/github.com/earth-sol/frp)](https://goreportcard.com/report/github.com/earth-sol/frp)
-[![GitHub Releases Stats](https://img.shields.io/github/downloads/earth-sol/frp/total.svg?logo=github)](https://somsubhra.github.io/github-release-stats/?username=fatedier&repository=frp)
+[![GitHub Releases Stats](https://img.shields.io/github/downloads/earth-sol/frp/total.svg?logo=github)](https://somsubhra.github.io/github-release-stats/?username=earth-sol&repository=frp)
 
 [README](README.md) | [中文文档](README_zh.md)
 
