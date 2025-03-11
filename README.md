@@ -1,3 +1,7 @@
+# FRP Fork
+
+This fork is purely for using dependabot updates to close security vulnerabilities.
+
 # frp
 
 [![Build Status](https://circleci.com/gh/earth-sol/frp.svg?style=shield)](https://circleci.com/gh/earth-sol/frp)
