@@ -51,13 +51,7 @@ func ListenKcp(address string) (l *KCPListener, err error) {
 				}
 				continue
 			}
-			if err := conn.Control(func(conn net.PacketConn) error {
-    				// implement the required control function logic here
-    				return nil
-			}); err != nil {
-    				// Handle error
-    				log.Errorf("Control error: %v", err)
-			}
+			// No need to call SetStreamMode – stream mode is now default
 			conn.SetWriteDelay(true)
 			conn.SetNoDelay(1, 20, 2, 1)
 			conn.SetMtu(1350)
@@ -103,13 +97,7 @@ func NewKCPConnFromUDP(conn *net.UDPConn, connected bool, raddr string) (net.Con
 	if err != nil {
 		return nil, err
 	}
-	if err := kcpConn.Control(func(conn net.PacketConn) error {
-		// implement the required control function logic here
-    		return nil
-	}); err != nil {
-    		// Handle error
-   		log.Errorf("Control error: %v", err)
-	}
+	// No need to call SetStreamMode – stream mode is now default
 	kcpConn.SetWriteDelay(true)
 	kcpConn.SetNoDelay(1, 20, 2, 1)
 	kcpConn.SetMtu(1350)
