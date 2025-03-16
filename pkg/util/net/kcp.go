@@ -51,7 +51,10 @@ func ListenKcp(address string) (l *KCPListener, err error) {
 				}
 				continue
 			}
-			conn.Control()
+			conn.Control(func(conn net.PacketConn) error {
+                		// implement the required control function logic here
+                		return nil
+            		})
 			conn.SetWriteDelay(true)
 			conn.SetNoDelay(1, 20, 2, 1)
 			conn.SetMtu(1350)
@@ -97,7 +100,10 @@ func NewKCPConnFromUDP(conn *net.UDPConn, connected bool, raddr string) (net.Con
 	if err != nil {
 		return nil, err
 	}
-	kcpConn.Control()
+	kcpConn.Control(func(conn net.PacketConn) error {
+		// implement the required control function logic here
+		return nil
+	})
 	kcpConn.SetWriteDelay(true)
 	kcpConn.SetNoDelay(1, 20, 2, 1)
 	kcpConn.SetMtu(1350)
